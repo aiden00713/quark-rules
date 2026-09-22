@@ -1,0 +1,21 @@
+{
+    "crime": "Compare device ID with stored identifier",
+    "permission": [],
+    "api": [
+        {
+            "class": "Landroid/telephony/TelephonyManager;",
+            "method": "getDeviceId",
+            "descriptor": "()Ljava/lang/String;"
+        },
+        {
+            "class": "Landroid/content/SharedPreferences;",
+            "method": "getString",
+            "descriptor": "(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;"
+        }
+    ],
+    "score": 0.43,
+    "label": [
+        "collection",
+        "telephony"
+    ]
+}
