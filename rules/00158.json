@@ -13,7 +13,7 @@
             "method": "getOutputStream"
         }
     ],
-    "score": -0.4,
+    "score": -0.58,
     "label": [
         "privacy",
         "connection"
